@@ -1,0 +1,27 @@
+www.tecnoprogramas.com
+
+https://github.com/jdaguirre44/curso1.git
+
+1 --> cd sietab
+2 --> git status
+3 --> git add
+4 --> git commit -m 'comentario del commit'
+5 --> git push
+
+git branch --> para verificar los branch que existen en el git
+git checkout ttmp --> comando 
+git checkout ttg --> 
+
+checkout -- esto es para quitar las alert al cambiar de branch
+
+git checkout -b "nombre del branch" --> comando para crear nuevos branch
+git checkout -d "nombre del branch" --> comando para eliminar branch
+
+para cambios en ttg ir al branch ttg y para cambios en ttmp ir al branch ttmp
+si necesito un cambio en comun debo de crear un nuevo branch y luego hacer
+git checkout ttmp
+git merge --no-ff "nombre del brach creado"
+git pull origin ttmp
+git merge --no-ff "nombre del brach creado"
+
+demo 2
